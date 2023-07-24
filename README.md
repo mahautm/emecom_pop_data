@@ -7,10 +7,10 @@ Preresequite :
 both are available  on the official imagenet website : https://image-net.org/download-images.php
 
 Files : 
-    reproduce_datasets.py
-        Start here. Uses a pytorch dataloader to access data from either the split of imagenet1k validation data used in the experiments
+    * reproduce_datasets.py
+        * Start here. Uses a pytorch dataloader to access data from either the split of imagenet1k validation data used in the experiments
         or the out of domain data from the imagenet21k selected classes
-    data_utils.py
-        functions and classes to prepare and organise data
-    imood_class_ids.npy
-        numpy array containing the ids of all selected out of domain classes
+    * data_utils.py
+        * functions and classes to prepare and organise data
+    * imood_class_ids.npy
+        * numpy array containing the ids of all selected out of domain classes
